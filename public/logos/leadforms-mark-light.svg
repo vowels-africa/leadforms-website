@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" role="img" aria-labelledby="markTitle markDesc">
+  <title id="markTitle">leadforms mark</title>
+  <desc id="markDesc">leadforms ticket-stub mark in off-white with three acid lime entry dots, for dark backgrounds</desc>
+  <path d="M5 7 L33 7 Q37 7 37 11 L37 16 Q33 16 33 20 Q33 24 37 24 L37 29 Q37 33 33 33 L5 33 Q1 33 1 29 L1 24 Q5 24 5 20 Q5 16 1 16 L1 11 Q1 7 5 7 Z" fill="#F7F5F0"/>
+  <circle cx="12" cy="20" r="2.2" fill="#D4F542"/>
+  <circle cx="19" cy="20" r="2.2" fill="#D4F542"/>
+  <circle cx="26" cy="20" r="2.2" fill="#D4F542"/>
+</svg>
