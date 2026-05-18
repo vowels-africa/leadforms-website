@@ -3,11 +3,11 @@ import TallyEmbed from "../components/TallyEmbed";
 
 const competitions: Record<string, { title: string; formId: string }> = {
   "car-insurance":  { title: "Car insurance",     formId: "aQK8WE" },
-  "life-insurance": { title: "Life insurance",     formId: "aQK8WE" },
-  "health-cover":   { title: "Health & gap cover", formId: "aQK8WE" },
-  "funeral-cover":  { title: "Funeral cover",      formId: "aQK8WE" },
-  "cell-contracts": { title: "Cell contracts",     formId: "aQK8WE" },
-  "banking":        { title: "Banking",            formId: "aQK8WE" },
+  "life-insurance": { title: "Life insurance",     formId: "aQAZNZ" },
+  "health-cover":   { title: "Health & gap cover", formId: "816jqz" },
+  "funeral-cover":  { title: "Funeral cover",      formId: "xXR9Xd" },
+  "cell-contracts": { title: "Cell contracts",     formId: "Pdb8RB" },
+  "banking":        { title: "Banking",            formId: "KYW8pX" },
 };
 
 export function generateStaticParams() {
