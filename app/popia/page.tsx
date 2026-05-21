@@ -19,7 +19,7 @@ export default function Popia() {
             <hr />
 
             <h2>1. Who is the responsible party?</h2>
-            <p>[Operating Entity Name (Pty) Ltd], trading as <strong>leadforms</strong><br />Registration number: [XXXX/XXXXXX/07]<br />Physical address: [Address]<br />Information Officer: [Name]<br />Information Officer email: info-officer@leadforms.co.za</p>
+            <p><strong>RYYVA (Pty) Ltd</strong> trading as <strong>leadforms</strong><br />Registration number: 2026/310716/07<br />Physical address: 2nd Floor, Clocktower Retail Centre, V&amp;A Waterfront, Cape Town, 8000<br />Information Officer email: info-officer@leadforms.co.za</p>
 
             <h2>2. What personal information do we collect?</h2>
             <p>We collect:</p>
