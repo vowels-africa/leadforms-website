@@ -14,13 +14,13 @@ export default function CompetitionTerms() {
           <h1>Competition Terms and Conditions</h1>
           <span className="legal-updated">Last updated: May 2026</span>
           <div className="legal-prose">
-            <p>These terms govern all promotional competitions run on <strong>leadforms.co.za</strong> (the "Platform"), operated by [Operating Entity Name (Pty) Ltd] ("we", "us", "the Promoter").</p>
+            <p>These terms govern all promotional competitions run on <strong>leadforms.co.za</strong> (the "Platform"), operated by <strong>RYYVA (Pty) Ltd t/a leadforms</strong> ("we", "us", "the Promoter").</p>
             <p>By entering any competition on the Platform, you agree to be bound by these terms together with any specific terms that apply to the individual competition you have entered.</p>
             <p>These terms comply with section 36 of the Consumer Protection Act 68 of 2008 ("CPA") and the regulations published thereunder.</p>
             <hr />
 
             <h2>1. The Promoter</h2>
-            <p>[Operating Entity Name (Pty) Ltd]<br />Registration number: [XXXX/XXXXXX/07]<br />Physical address: [Address]<br />Email: hello@leadforms.co.za</p>
+            <p>RYYVA (Pty) Ltd trading as leadforms<br />Registration number: 2026/310716/07<br />Physical address: 2nd Floor, Clocktower Retail Centre, V&amp;A Waterfront, Cape Town, 8000<br />Email: hello@leadforms.co.za</p>
 
             <h2>2. Eligibility</h2>
             <p>Competitions are open to natural persons who are:</p>

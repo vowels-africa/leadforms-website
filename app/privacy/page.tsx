@@ -18,7 +18,7 @@ export default function Privacy() {
             <hr />
 
             <h2>1. Who we are</h2>
-            <p>leadforms is operated by [Operating Entity Name (Pty) Ltd].<br />Registration number: [XXXX/XXXXXX/07]<br />Physical address: [Address]<br />Email: hello@leadforms.co.za</p>
+            <p>leadforms is operated by <strong>RYYVA (Pty) Ltd</strong>.<br />Registration number: 2026/310716/07<br />Physical address: 2nd Floor, Clocktower Retail Centre, V&amp;A Waterfront, Cape Town, 8000<br />Email: hello@leadforms.co.za</p>
             <p>Our Information Officer can be contacted at info-officer@leadforms.co.za.</p>
 
             <h2>2. What information we collect</h2>
@@ -42,7 +42,7 @@ export default function Privacy() {
             <p>We collect your information directly from you when you:</p>
             <ul>
               <li>Complete a survey on the Platform</li>
-              <li>Engage with Sandy, our WhatsApp survey agent</li>
+              <li>Engage with Sandy, our WhatsApp Agent</li>
               <li>Contact us by email or via our contact form</li>
             </ul>
             <p>Technical information is collected automatically when you visit the Platform.</p>
