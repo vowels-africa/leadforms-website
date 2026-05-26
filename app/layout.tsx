@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: "Real prizes. Themed to the topic. Drawn monthly.",
   },
   icons: {
-    icon: "/logos/leadforms-favicon.svg",
+    icon: { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
   },
 };
 
@@ -29,11 +29,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-ZA" className={inter.variable} style={{ colorScheme: "light" }} data-scroll-behavior="smooth">
-      {process.env.NEXT_PUBLIC_GTM_ID && (
+      {process.env.NODE_ENV === "production" && process.env.NEXT_PUBLIC_GTM_ID && (
         <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
       )}
       <body>
-        {process.env.NEXT_PUBLIC_GTM_ID && (
+        {process.env.NODE_ENV === "production" && process.env.NEXT_PUBLIC_GTM_ID && (
           <noscript>
             <iframe
               src={`https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GTM_ID}`}
