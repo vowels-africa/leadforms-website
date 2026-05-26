@@ -57,7 +57,7 @@ export default function Home() {
 
           <div className="competition-grid">
 
-            <Link href="/car-insurance" className="competition-card" target="_blank" rel="noopener noreferrer">
+            <Link href="https://submit.leadforms.co.za/car-insurance" className="competition-card" target="_blank" rel="noopener noreferrer">
               <div className="card-head">
                 <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M5 17h-2v-6l1.5-4.5a1.5 1.5 0 0 1 1.4-1H17a1.5 1.5 0 0 1 1.4 1l1.6 4.5v6h-2"/>
@@ -72,7 +72,7 @@ export default function Home() {
               <div className="card-meta">Car insurance · 90 seconds</div>
             </Link>
 
-            <Link href="/life-insurance" className="competition-card" target="_blank" rel="noopener noreferrer">
+            <Link href="https://submit.leadforms.co.za/life-insurance" className="competition-card" target="_blank" rel="noopener noreferrer">
               <div className="card-head">
                 <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M12 3l8 4v5c0 5-3.5 9-8 10-4.5-1-8-5-8-10V7l8-4z"/>
@@ -84,7 +84,7 @@ export default function Home() {
               <div className="card-meta">Life insurance · 90 seconds</div>
             </Link>
 
-            <Link href="/health-cover" className="competition-card" target="_blank" rel="noopener noreferrer">
+            <Link href="https://submit.leadforms.co.za/health-cover" className="competition-card" target="_blank" rel="noopener noreferrer">
               <div className="card-head">
                 <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M6 4v6a4 4 0 0 0 8 0V4"/>
@@ -99,7 +99,7 @@ export default function Home() {
               <div className="card-meta">Health &amp; gap cover · 90 seconds</div>
             </Link>
 
-            <Link href="/funeral-cover" className="competition-card" target="_blank" rel="noopener noreferrer">
+            <Link href="https://submit.leadforms.co.za/funeral-cover" className="competition-card" target="_blank" rel="noopener noreferrer">
               <div className="card-head">
                 <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <circle cx="9" cy="9" r="3"/>
@@ -114,7 +114,7 @@ export default function Home() {
               <div className="card-meta">Funeral cover · 90 seconds</div>
             </Link>
 
-            <Link href="/cell-contracts" className="competition-card" target="_blank" rel="noopener noreferrer">
+            <Link href="https://submit.leadforms.co.za/cell-contracts" className="competition-card" target="_blank" rel="noopener noreferrer">
               <div className="card-head">
                 <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <rect x="7" y="2" width="10" height="20" rx="2"/>
@@ -127,7 +127,7 @@ export default function Home() {
               <div className="card-meta">Cell contracts · 90 seconds</div>
             </Link>
 
-            <Link href="/banking" className="competition-card" target="_blank" rel="noopener noreferrer">
+            <Link href="https://submit.leadforms.co.za/banking" className="competition-card" target="_blank" rel="noopener noreferrer">
               <div className="card-head">
                 <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <rect x="2" y="6" width="20" height="12" rx="2"/>
