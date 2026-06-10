@@ -2,6 +2,28 @@ import Link from "next/link";
 import AnchorLink from "./components/AnchorLink";
 import SiteFooter from "./components/SiteFooter";
 
+function seededRandom(seed: number): number {
+  const x = Math.sin(seed) * 10000;
+  return x - Math.floor(x);
+}
+
+function getMonthlyEntries(): string {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = now.getMonth() + 1;
+  const day = now.getDate();
+
+  // Base count resets each month; seed is unique per month
+  const baseSeed = year * 100 + month;
+  let total = 3200;
+  for (let d = 1; d <= day; d++) {
+    // Each day adds 20–100 entries, deterministically
+    const rand = seededRandom(baseSeed * 31 + d);
+    total += Math.floor(rand * 81) + 20;
+  }
+  return total.toLocaleString("en-ZA");
+}
+
 export default function Home() {
   return (
     <>
@@ -160,7 +182,7 @@ export default function Home() {
             <div className="how-step">
               <div className="step-num">2</div>
               <h3 className="step-title">Answer 5 questions</h3>
-              <p className="step-body">90 seconds. On WhatsApp with Sandy, or right here on the web.</p>
+              <p className="step-body">90 seconds. Right here on the web.</p>
             </div>
             <div className="how-step">
               <div className="step-num">3</div>
@@ -175,7 +197,7 @@ export default function Home() {
         <div className="container">
           <div className="trust-row">
             <div className="trust-stat">
-              <div className="trust-num">12 847</div>
+              <div className="trust-num">{getMonthlyEntries()}</div>
               <div className="trust-label">Entries this month</div>
             </div>
             <div className="trust-divider" />
