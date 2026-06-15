@@ -1,28 +1,7 @@
 import Link from "next/link";
 import AnchorLink from "./components/AnchorLink";
 import SiteFooter from "./components/SiteFooter";
-
-function seededRandom(seed: number): number {
-  const x = Math.sin(seed) * 10000;
-  return x - Math.floor(x);
-}
-
-function getMonthlyEntries(): string {
-  const now = new Date();
-  const year = now.getFullYear();
-  const month = now.getMonth() + 1;
-  const day = now.getDate();
-
-  // Base count resets each month; seed is unique per month
-  const baseSeed = year * 100 + month;
-  let total = 3200;
-  for (let d = 1; d <= day; d++) {
-    // Each day adds 20–100 entries, deterministically
-    const rand = seededRandom(baseSeed * 31 + d);
-    total += Math.floor(rand * 81) + 20;
-  }
-  return total.toLocaleString("en-ZA");
-}
+import MonthlyEntries from "./components/MonthlyEntries";
 
 export default function Home() {
   return (
@@ -51,7 +30,7 @@ export default function Home() {
         <div className="container">
           <div className="eyebrow">
             <span className="dot" />
-            6 competitions running right now
+            9 competitions running right now
           </div>
           <h1>Every form is a<br />chance to <span className="lime-highlight">win.</span></h1>
           <p>Answer five quick questions on the topics you care about. Get entered into a real prize draw, themed to the survey. No catch.</p>
@@ -163,6 +142,46 @@ export default function Home() {
               <div className="card-meta">Banking · 90 seconds</div>
             </Link>
 
+            <Link href="https://submit.leadforms.co.za/retirement-savings" className="competition-card" target="_blank" rel="noopener noreferrer">
+              <div className="card-head">
+                <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M12 2a7 7 0 0 1 7 7c0 4-3 7-7 9-4-2-7-5-7-9a7 7 0 0 1 7-7z"/>
+                  <path d="M12 6v4l2.5 2.5"/>
+                </svg>
+                <span className="card-status new">New</span>
+              </div>
+              <div className="card-prize">R1 000</div>
+              <div className="card-prize-label">Toward your savings</div>
+              <div className="card-meta">Retirement &amp; savings · 90 seconds</div>
+            </Link>
+
+            <Link href="https://submit.leadforms.co.za/investment" className="competition-card" target="_blank" rel="noopener noreferrer">
+              <div className="card-head">
+                <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
+                  <polyline points="16 7 22 7 22 13"/>
+                </svg>
+                <span className="card-status new">New</span>
+              </div>
+              <div className="card-prize">R1 000</div>
+              <div className="card-prize-label">To grow</div>
+              <div className="card-meta">Investment products · 90 seconds</div>
+            </Link>
+
+            <Link href="https://submit.leadforms.co.za/trading" className="competition-card" target="_blank" rel="noopener noreferrer">
+              <div className="card-head">
+                <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <rect x="2" y="3" width="20" height="14" rx="2"/>
+                  <path d="M8 21h8M12 17v4"/>
+                  <polyline points="7 10 10 7 13 10 17 6"/>
+                </svg>
+                <span className="card-status new">New</span>
+              </div>
+              <div className="card-prize">R1 000</div>
+              <div className="card-prize-label">Cash</div>
+              <div className="card-meta">Trading platform · 90 seconds</div>
+            </Link>
+
           </div>
         </div>
       </section>
@@ -197,7 +216,7 @@ export default function Home() {
         <div className="container">
           <div className="trust-row">
             <div className="trust-stat">
-              <div className="trust-num">{getMonthlyEntries()}</div>
+              <div className="trust-num"><MonthlyEntries /></div>
               <div className="trust-label">Entries this month</div>
             </div>
             <div className="trust-divider" />

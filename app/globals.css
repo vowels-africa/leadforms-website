@@ -249,6 +249,7 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--color-lime);
 }
 .card-status.ending { color: var(--color-coral); }
+.card-status.new { color: var(--color-sky, #7dd3fc); }
 .card-prize {
   font-size: 22px;
   font-weight: 500;
