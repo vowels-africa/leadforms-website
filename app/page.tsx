@@ -2,6 +2,7 @@ import Link from "next/link";
 import AnchorLink from "./components/AnchorLink";
 import SiteFooter from "./components/SiteFooter";
 import MonthlyEntries from "./components/MonthlyEntries";
+import PrizesCounter from "./components/PrizesCounter";
 
 export default function Home() {
   return (
@@ -221,7 +222,7 @@ export default function Home() {
             </div>
             <div className="trust-divider" />
             <div className="trust-stat">
-              <div className="trust-num">R 38 400</div>
+              <div className="trust-num"><PrizesCounter /></div>
               <div className="trust-label">Prizes paid out</div>
             </div>
             <div className="trust-divider" />
