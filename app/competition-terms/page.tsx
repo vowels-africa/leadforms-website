@@ -12,15 +12,15 @@ export default function CompetitionTerms() {
       <main className="legal-page">
         <div className="container">
           <h1>Competition Terms and Conditions</h1>
-          <span className="legal-updated">Last updated: May 2026</span>
+          <span className="legal-updated">Last updated: July 2026</span>
           <div className="legal-prose">
-            <p>These terms govern all promotional competitions run on <strong>leadforms.co.za</strong> (the "Platform"), operated by <strong>RYYVA (Pty) Ltd t/a leadforms</strong> ("we", "us", "the Promoter").</p>
+            <p>These terms govern all promotional competitions run on <strong>leadforms.co.za</strong> (the "Platform"), operated by <strong>Ryyva (Pty) Ltd</strong>, trading as leadforms ("we", "us", "the Promoter").</p>
             <p>By entering any competition on the Platform, you agree to be bound by these terms together with any specific terms that apply to the individual competition you have entered.</p>
             <p>These terms comply with section 36 of the Consumer Protection Act 68 of 2008 ("CPA") and the regulations published thereunder.</p>
             <hr />
 
             <h2>1. The Promoter</h2>
-            <p>RYYVA (Pty) Ltd trading as leadforms<br />Registration number: 2026/310716/07<br />Physical address: 2nd Floor, Clocktower Retail Centre, V&amp;A Waterfront, Cape Town, 8000<br />Email: hello@leadforms.co.za</p>
+            <p>Ryyva (Pty) Ltd, trading as leadforms<br />Registration number: 2026/310716/07<br />Physical address: 2nd Floor, Clocktower Retail Centre, V&amp;A Waterfront, Cape Town, 8000<br />Email: hello@leadforms.co.za</p>
 
             <h2>2. Eligibility</h2>
             <p>Competitions are open to natural persons who are:</p>
@@ -35,11 +35,12 @@ export default function CompetitionTerms() {
             <p>Entry is free. No purchase is required to enter, to win, or to claim a prize.</p>
             <p>To enter, you must:</p>
             <ol>
-              <li>Complete one of the surveys made available on the Platform or via WhatsApp</li>
+              <li>Complete one of the surveys made available on the Platform</li>
               <li>Answer the survey questions truthfully and in full</li>
               <li>Provide your name, mobile number, and any other entry information requested</li>
-              <li>Accept these terms and the applicable Privacy Policy</li>
+              <li>Tick the consent box confirming that you are 18 or older, that you are resident in South Africa, and that you accept these terms and the Privacy Policy</li>
             </ol>
+            <p>Ticking the consent box is required to enter. It is the affirmative act by which you accept these terms, including the provisions on partner contact set out in clause 9.</p>
             <p>You may enter each unique competition once per calendar month. Multiple entries from the same person within a single competition period will result in disqualification of all entries from that person.</p>
 
             <h2>4. Competition period</h2>
@@ -51,7 +52,7 @@ export default function CompetitionTerms() {
 
             <h2>6. The prize</h2>
             <p>The prize for each competition is described on the Platform at the time of entry.</p>
-            <p>Prizes are not transferable and cannot be exchanged for cash or for any other prize.</p>
+            <p>Prizes are not transferable and cannot be exchanged for cash or for any other prize, except where the Promoter elects to pay a prize as a cash amount, in which case that cash amount is the full and final prize.</p>
             <p>The Promoter reserves the right to substitute the prize for a comparable prize of equal or greater value should the original prize become unavailable for reasons beyond the Promoter's reasonable control.</p>
 
             <h2>7. Notification and collection</h2>
@@ -68,10 +69,15 @@ export default function CompetitionTerms() {
             <p>By entering the competition, the winner agrees that their first name, surname initial, city of residence, and (with separate consent) a photograph may be published on the Platform and on the Promoter's social media channels for the purpose of announcing the result.</p>
             <p>A winner may elect to remain anonymous in any public announcement by informing the Promoter in writing at the time of claiming the prize.</p>
 
-            <h2>9. Personal information</h2>
+            <h2>9. Personal information and partner contact</h2>
             <p>The personal information you provide on entry will be processed in accordance with the <Link href="/privacy">Privacy Policy</Link> and <Link href="/popia">POPIA Notice</Link> published on the Platform.</p>
-            <p>If you have specifically opted in by ticking the relevant box at entry, your information may be shared with a single product partner relevant to the topic of the survey, who may contact you with product options. You may withdraw this consent at any time.</p>
-            <p>If you have not opted in, your information is used solely for the administration of the competition and is not shared with any product partner.</p>
+            <p>When you tick the consent box to enter (clause 3), you consent to the Promoter sharing your details with a single product partner relevant to the topic of the survey you completed, so that the partner may contact you about relevant product options. The partner shared with you will always be relevant to the survey topic — for example, a life insurance survey may result in contact from a life insurance provider.</p>
+            <p>You may withdraw this consent at any time, at no cost, by:</p>
+            <ul>
+              <li>Replying STOP to any message you receive, or</li>
+              <li>Emailing info-officer@leadforms.co.za</li>
+            </ul>
+            <p>Withdrawing consent does not affect your entry into the draw. Your survey answers, including any timing and budget information you provide, form part of the information shared with the partner.</p>
 
             <h2>10. Disqualification</h2>
             <p>The Promoter reserves the right to disqualify any entry that is:</p>
