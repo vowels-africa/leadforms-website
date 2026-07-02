@@ -11,14 +11,14 @@ export default function Privacy() {
       <main className="legal-page">
         <div className="container">
           <h1>Privacy Policy</h1>
-          <span className="legal-updated">Last updated: May 2026</span>
+          <span className="legal-updated">Last updated: July 2026</span>
           <div className="legal-prose">
             <p>This Privacy Policy explains how <strong>leadforms</strong> ("we", "us", "the Platform") collects, uses, and protects your personal information.</p>
             <p>We respect your privacy and comply with the Protection of Personal Information Act 4 of 2013 ("POPIA").</p>
             <hr />
 
             <h2>1. Who we are</h2>
-            <p>leadforms is operated by <strong>RYYVA (Pty) Ltd</strong>.<br />Registration number: 2026/310716/07<br />Physical address: 2nd Floor, Clocktower Retail Centre, V&amp;A Waterfront, Cape Town, 8000<br />Email: hello@leadforms.co.za</p>
+            <p>leadforms is operated by <strong>Ryyva (Pty) Ltd</strong>, trading as leadforms.<br />Registration number: 2026/310716/07<br />Physical address: 2nd Floor, Clocktower Retail Centre, V&amp;A Waterfront, Cape Town, 8000<br />Email: hello@leadforms.co.za</p>
             <p>Our Information Officer can be contacted at info-officer@leadforms.co.za.</p>
 
             <h2>2. What information we collect</h2>
@@ -27,8 +27,8 @@ export default function Privacy() {
               <li>Your full name</li>
               <li>Your mobile number</li>
               <li>Your email address (where provided)</li>
-              <li>Your survey responses</li>
-              <li>Your competition entry preferences, including whether you have opted in to be contacted by a product partner</li>
+              <li>Your survey responses, including any timing and budget information you provide</li>
+              <li>Your competition entry and consent preferences</li>
             </ul>
             <p><strong>Information collected automatically when you use the Platform:</strong></p>
             <ul>
@@ -42,7 +42,6 @@ export default function Privacy() {
             <p>We collect your information directly from you when you:</p>
             <ul>
               <li>Complete a survey on the Platform</li>
-              <li>Engage with Sandy, our WhatsApp Agent</li>
               <li>Contact us by email or via our contact form</li>
             </ul>
             <p>Technical information is collected automatically when you visit the Platform.</p>
@@ -56,7 +55,7 @@ export default function Privacy() {
               <li>To send you transactional messages directly relating to your entry</li>
               <li>To improve the Platform and our service</li>
               <li>To comply with our legal obligations</li>
-              <li><strong>Where you have specifically opted in:</strong> to share your information with a single product partner relevant to the topic of the survey, who may contact you with product options</li>
+              <li>To share your information with a single product partner relevant to the topic of the survey, who may contact you with product options. You consent to this when you tick the entry box to accept the competition terms, and you may withdraw this consent at any time (see section 7)</li>
             </ul>
             <p>We do not use your information for any other purpose without your consent.</p>
 
@@ -64,16 +63,17 @@ export default function Privacy() {
             <p>We share your information only with:</p>
             <ul>
               <li><strong>Service providers</strong> who help us run the Platform — including hosting, communications, and analytics providers. These providers process information on our behalf under written agreements that require them to protect it.</li>
-              <li><strong>A product partner</strong>, only where you have specifically opted in at entry. The partner shared with you will be relevant to the topic of the survey. You will be told at the point of entry what category of partner this is.</li>
+              <li><strong>A product partner</strong> relevant to the topic of the survey, where you have consented by accepting the competition terms at entry. Only the one partner relevant to the survey topic receives your details. You are told at the point of entry that this consent forms part of the competition terms.</li>
               <li><strong>Prize fulfilment partners</strong> where necessary to deliver a prize you have won.</li>
               <li><strong>Authorities</strong> where we are required to do so by law.</li>
             </ul>
             <p><strong>We do not sell your personal information.</strong></p>
 
             <h2>6. How long we keep it</h2>
+            <p>We keep your personal information for only as long as we need it:</p>
             <ul>
               <li><strong>Entry information</strong> is retained for the duration of the competition plus six (6) months</li>
-              <li><strong>Information shared with a product partner</strong>, with your consent, is retained by us for twelve (12) months from the date of consent, after which we anonymise it</li>
+              <li><strong>Information shared with a product partner</strong> is retained by us for twelve (12) months from the date of entry, after which we anonymise it</li>
               <li><strong>Information required for legal or accounting purposes</strong> is retained for the period required by law</li>
             </ul>
             <p>You may request earlier deletion at any time (see section 7).</p>
@@ -89,6 +89,7 @@ export default function Privacy() {
               <li>Withdraw any consent you have given</li>
               <li>Lodge a complaint with the Information Regulator</li>
             </ul>
+            <p>You may withdraw your consent to partner contact at any time, at no cost, by replying STOP to any message you receive or by emailing info-officer@leadforms.co.za. Withdrawing consent does not affect your entry into the draw.</p>
             <p>To exercise any of these rights, contact us at info-officer@leadforms.co.za. We will respond within thirty (30) days.</p>
             <p>You can also lodge a complaint with the Information Regulator of South Africa:</p>
             <p><strong>The Information Regulator (South Africa)</strong><br />JD House, 27 Stiemens Street, Braamfontein, Johannesburg, 2001<br />Email: enquiries@inforegulator.org.za<br />Complaints email: POPIAComplaints@inforegulator.org.za</p>
